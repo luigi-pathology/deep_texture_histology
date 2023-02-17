@@ -3,7 +3,6 @@
 # License: This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA 4.0)
 
 from setuptools import setup
-import deeptexture
 
 DESCRIPTION = "deep_texture_histology: Deep Texture Representations for Cancer Histology Images"
 NAME = 'deeptexture'
@@ -12,7 +11,7 @@ AUTHOR_EMAIL = 'kdais-prm@m.u-tokyo.ac.jp'
 URL = 'https://github.com/dakomura/deep_texture_histology'
 LICENSE = 'CC-BY-NC-SA 4.0'
 DOWNLOAD_URL = 'https://github.com/dakomura/deep_texture_histology'
-VERSION = deeptexture.__version__
+VERSION = '0.4.0'
 PYTHON_REQUIRES = ">=3.6"
 
 INSTALL_REQUIRES = [
