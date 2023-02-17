@@ -25,6 +25,7 @@ INSTALL_REQUIRES = [
     'seaborn',
     'pandas',
     'pyrsistent',
+    'opencv-python',
 ]
 
 PACKAGES = [
